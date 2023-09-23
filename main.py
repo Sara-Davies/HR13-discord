@@ -12,7 +12,7 @@ async def on_ready():
 	print(f'Bot {bot.user} is online! Id: {bot.user.id}')
 
 async def main():
-	await bot.start('INSERT YOUR OWN TOKEN HERE!!!')
+	await bot.start(MTE1NDk5NDIwNTIyODI3MzcxNA.GjB3nW.NVoUT6OB7akftAv0Te58zBld7tJV-ntPZPbFLk)
 
 @bot.command()
 async def timer(ctx: commands.Context, time: int):
