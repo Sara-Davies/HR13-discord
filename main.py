@@ -3,7 +3,9 @@ from discord.ext import commands
 import asyncio
 
 intents = discord.Intents.all()
-bot = commands.Bot(command_prefix=commands.when_mentioned_or("!"), intents=intents)
+
+#intents = discord.Intents.all()
+bot = commands.Bot(command_prefi = commands.when_mentioned_or("!"), intents=intents)
 
 @bot.event
 async def on_ready():
